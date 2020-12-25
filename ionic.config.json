@@ -1,0 +1,7 @@
+{
+  "name": "HuaweiMapDemo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
