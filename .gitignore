@@ -29,3 +29,8 @@ npm-debug.log*
 /platforms
 /plugins
 /www
+
+agconnect-services.json
+build.json
+/*.jks
+package-lock.json
