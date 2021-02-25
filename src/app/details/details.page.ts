@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HMSMap, HuaweiMap } from '@ionic-native/hms-map/ngx';
+import { HMSMap, HuaweiMap } from '@hmscore/ionic-native-hms-map/ngx';
 
 @Component({
   selector: 'app-details',
@@ -48,6 +48,10 @@ export class DetailsPage implements OnInit {
     }
     this.detailsMap = await this.hmsMap.getMap('details-map', mapOptions);
     console.log('Map Initialized!');
+  }
+
+  scrollMap() {
+    this.detailsMap.scroll();
   }
 
 }

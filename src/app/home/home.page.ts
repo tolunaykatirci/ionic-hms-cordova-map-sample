@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { AlertController } from '@ionic/angular';
 import { Router } from '@angular/router';
-import { HMSMap, HuaweiMap, LatLng, MarkerOptions, Color, PatternItemType, CircleOptions, PolylineOptions, MapEvent } from '@ionic-native/hms-map/ngx';
+import { HMSMap, HuaweiMap, LatLng, MarkerOptions, Color, PatternItemType, CircleOptions, PolylineOptions, MapEvent } from '@hmscore/ionic-native-hms-map/ngx';
 
 @Component({
   selector: 'app-home',

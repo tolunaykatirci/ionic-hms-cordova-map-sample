@@ -7,7 +7,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [scrollEvents]="true" (ionScroll)="scrollMap()" >
   <div id="details-map"></div>
   <ion-card>
     <ion-card-header>

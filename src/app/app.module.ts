@@ -9,7 +9,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
-import { HMSMap } from '@ionic-native/hms-map/ngx';
+import { HMSMap } from '@hmscore/ionic-native-hms-map/ngx';
 
 @NgModule({
   declarations: [AppComponent],
