@@ -57,3 +57,7 @@ ionic cordova platform add android
 ```bash
 ionic cordova run android --device
 ```
+
+## Screenshots
+
+<img src="./.images/homePage.jpg" height="640" alt="Home Page"> <img src="./.images/markerInfo.jpg" height="640" alt="Marker Info"> <img src="./.images/detailsPage.jpg" height="640" alt="Details Page">
