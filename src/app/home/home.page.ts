@@ -125,7 +125,6 @@ export class HomePage {
 
   clickElement() {
     console.log('Map overlapping element clicked.');
-    //this.presentAlert();
     this.navigateDetails();
   }
 
